@@ -17,7 +17,7 @@ class App7 extends React.Component {
         <h3> Объявление функции как стрелочной Не рекомендуется! </h3>
         <p>
           {" "}
-          handlerClick = () => [this.setState([counter:
+          handlerClick = () = [this.setState([counter:
           this.state.counter-1]);];
         </p>
 
