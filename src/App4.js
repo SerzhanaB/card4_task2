@@ -6,7 +6,7 @@ class App4 extends React.Component {
     super(props);
     this.state = { counter: 0 };
   }
-handlerClick = () => {
+handlerClick ()  {
     this.setState({counter: this.state.counter+2});
   };
 
