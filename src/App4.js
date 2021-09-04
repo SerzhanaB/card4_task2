@@ -19,7 +19,7 @@ handlerClick ()  {
        <h3> Объявление функции как надо </h3>
        <h3> Способ 1 вызов через стрелочную функцию</h3>
 
-      <p> onClick=[(e) =>this.handlerClick(e)] </p>
+      <p> onClick=[(e) => this.handlerClick(e)] </p>
     
       <button
         onClick={(e) =>this.handlerClick(e)}
